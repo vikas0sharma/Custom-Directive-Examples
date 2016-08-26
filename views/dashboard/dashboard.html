@@ -1,0 +1,25 @@
+﻿<div ng-controller="dashboardController">
+    <!--<custom-label></custom-label>-->
+    <div custom-label></div>
+
+    <!--<readymade-table rows-data="rowdata"></readymade-table>-->
+    <div class="div-border">Controller: <input type="text" ng-model="dataFromParent" style="border:1px solid green" /></div>
+    <div class="div-border">Parent Scope:<parent-scope></parent-scope></div>
+    <div class="div-border">Inherited Scope:<inherited-scope></inherited-scope></div>
+    <div class="div-border">Isolated Scope:<isolated-scope></isolated-scope></div>
+
+    <isolated-scope-with-filters one-way-attr="{{ dataFromParent}}" two-way-attr="dataFromParent" parent-method-name="changeValue()"></isolated-scope-with-filters>
+
+    <br />
+    <br />
+    <smart-list items="itemsdata" />
+    <br />
+    <br />
+    <accordion>
+        <accordion-child title="Element 1">Data 1</accordion-child>
+        <accordion-child title="Element 2">Data 2</accordion-child>
+        <accordion-child title="Element 3">Data 3</accordion-child>
+    </accordion>
+
+
+    </div>

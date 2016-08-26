@@ -1,0 +1,49 @@
+﻿.btn-sty {
+    border-radius: 12px;
+}
+
+.heading {
+    box-shadow: 2px 2px 2px;
+    border: 1px solid;
+    background-color: #eeeeee;
+    text-align: center;
+    
+}
+
+.content {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.like {
+    background-color: blue;
+    color: white;
+}
+
+.ul-sty {
+    border: dashed 1px black;
+    list-style: none;
+    background-color: #eeeeee;
+}
+
+.li-sty {
+    height: 100%;
+    margin: 5px;
+    border: 1px solid;
+    background-color: white;
+    margin-right: 45px;
+}
+
+.btn-li {
+    height: 20px;
+    background-color: white;
+    border: none;
+    color:red;
+}
+
+.div-border{
+
+    background-color: #eee;
+    height: 50px;
+    width: 174px;
+}

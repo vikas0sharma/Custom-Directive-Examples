@@ -1,0 +1,12 @@
+﻿<table class="table table-striped" >
+    <thead>
+        <tr ng-repeat="firstrow in rowsData|limitTo:1">
+            <th ng-repeat="(key,value) in firstrow" ng-bind="key"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="row in rowsData">
+            <td ng-repeat="prop in row" ng-bind="prop"></td>
+        </tr>
+    </tbody>
+</table>
